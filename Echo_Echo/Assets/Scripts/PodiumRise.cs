@@ -9,12 +9,12 @@ public class PodiumRise : MonoBehaviour
 {
     public GameObject podium;
     public Vector3 finalPosition = new Vector3(0, 1, 0);
-    public float speed = 1.0f;
+    public float speed = 0.6f;
     public bool rise = false;
 
     IEnumerator OnTriggerEnter(Collider collider)
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         rise = true;
     }
 
