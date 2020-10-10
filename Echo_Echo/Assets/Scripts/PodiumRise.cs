@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
 
-public class podium_rise : MonoBehaviour
+public class PodiumRise : MonoBehaviour
 {
     public GameObject podium;
     public Vector3 finalPosition = new Vector3(0, 1, 0);
